@@ -179,10 +179,11 @@
     "not-built-for-gaming-facette-gaming-usage-description": "Ni optimizirana za igranje iger",
     "not-for-beginner-facette-no-linux-contact-description": "Ni primerna za začetnike",
     "okay-when-working-description": "Če to izboljša mojo uporabniško izkušnjo, se strinjam z uporabo takšnih spletnih storitev",
-    "old-version-alert": "Navedeni povezava je bila ustvarjena s starejšo različico projekta. Rezultat lahko zdaj najdete na naslednji povezavi",
-    "old-version-migrated-fallback-alert": "Migrirali smo odgovore v to verzijo. Ker struktura malo razlikuje, rezultati se lahko razlikujejo.",
+    "old-version-alert": "Za omejen čas lahko najdeš staro različico distrochoosera tudi na naslednjem povezavi",
+    "old-version-migrated-fallback-alert": "Ta nova različica ohranja 2,7 milijona rezultatov iz različice 5. Vaši povezave ostanejo veljavne.",
     "old-version-not-found-alert": "Navedena povezava se nanaša na staro rezultato, ki ni je na žalost več na voljo.",
     "opensuse-description": "openSUSE si prizadeva zagotoviti stabilno in uporabniku prijazno distribucijo Linuxa, predvsem za končne uporabnike",
+    "operational_center": "Glavno operativno in upravno središče",
     "organized_in": "Organizirano v",
     "packages-available-facette-privacy-usage-description": "Na voljo so programi za anonimizacijo",
     "packages-may-too-old-gaming-facette-gaming-usage-description": "Različice programov morda niso dovolj posodobljene za igranje iger",
@@ -309,7 +310,6 @@
     "xfce-choice-description": "Namestovalnik ponuja možnost za okolje skrivbenke 'XFCE' ali je na voljo varianta Linux-distribucije.",
     "xfce-default-description": "Standardno okolje stila je 'XFCE'.",
     "xubuntu-description": "Xubuntu je distribucija Linuxa, ki temelji na Ubuntuju in jo poganja lahko namizno okolje XFCE.",
-    "zorinos-description": "Zorin OS je distribucija Linuxa, osredotočena na začetnike, z uporabniškim vmesnikom, podobnim sistemu Windows",
     "years_old": "let",
-    "operational_center": "Glavno operativno in upravno središče"
+    "zorinos-description": "Zorin OS je distribucija Linuxa, osredotočena na začetnike, z uporabniškim vmesnikom, podobnim sistemu Windows"
 }

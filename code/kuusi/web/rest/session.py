@@ -121,6 +121,7 @@ class SessionSerializer(serializers.ModelSerializer, MetaTagsSerializer):
     previous_version_url = serializers.CharField(default=PREVIOUS_VERSION_URL)
 
     session_origin = serializers.SerializerMethodField()
+    is_origin_imported = serializers.SerializerMethodField()
     language_values = serializers.SerializerMethodField()
     default_language_values = serializers.SerializerMethodField()
     is_language_rtl = serializers.SerializerMethodField()
@@ -136,6 +137,7 @@ class SessionSerializer(serializers.ModelSerializer, MetaTagsSerializer):
             "default_language",
             "language_codes",
             "session_origin",
+            "is_origin_imported",
             "started",
             "version",
             "base_url",
@@ -153,13 +155,17 @@ class SessionSerializer(serializers.ModelSerializer, MetaTagsSerializer):
             "is_translation_mode_enabled",
             "is_feedback_mode_enabled",
             "previous_version_url",
-            "imported_from_session",
             "entry_point",
             "score_map",
         )
 
     def get_session_origin(self, obj: Session) -> str | None:
         return obj.session_origin.result_id if obj.session_origin else None
+
+    def get_is_origin_imported(self, obj: Session) -> bool:
+        if not obj.session_origin:
+            return False
+        return obj.session_origin.imported_from_session is not None
 
     def get_meta(self, obj: Session) -> Dict[str, Any]:
         return get_meta_tags(obj.language_code)

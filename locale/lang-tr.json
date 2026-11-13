@@ -179,10 +179,11 @@
     "not-built-for-gaming-facette-gaming-usage-description": "Oyun oynamak için optimize edilmemiştir",
     "not-for-beginner-facette-no-linux-contact-description": "Yeni başlayanlar için uygun değil",
     "okay-when-working-description": "Kullanıcı deneyimimi geliştirirse, bu tür çevrim içi hizmetleri kullanmayı kabul edebilirim",
-    "old-version-alert": "Sağlanan bağlantı, projenin eski bir sürümüyle oluşturulmuştur. Sonucu artık aşağıdaki bağlantıda bulabilirsiniz",
-    "old-version-migrated-fallback-alert": "Cevapları bu sürüme taşıdık. Yapı biraz farklı olduğu için sonuç değişebilir.",
+    "old-version-alert": "Sınırlı bir süre için distrochooser'un eski versiyonunu ayrıca aşağıdaki bağlantıda bulabilirsiniz",
+    "old-version-migrated-fallback-alert": "Bu yeni sürüm, 5. versiyonun 2,7 milyon sonucunu koruyor. Bağlantıların geçerliliğini koruyor.",
     "old-version-not-found-alert": "Sağlanan bağlantı eski bir sonuca işaret ediyor ve ne yazık ki artık mevcut değil.",
     "opensuse-description": "openSUSE, çoğunlukla son kullanıcılar için istikrarlı ve kullanıcı dostu bir dağıtım sunmayı amaçlar",
+    "operational_center": "Birincil operasyonel ve idari merkez",
     "organized_in": "Şurada düzenlenmiş",
     "packages-available-facette-privacy-usage-description": "Anonimleştirme amaçlı programlar mevcuttur",
     "packages-may-too-old-gaming-facette-gaming-usage-description": "Program sürümleri oyun oynamak için yeterince güncel olmayabilir",
@@ -309,7 +310,6 @@
     "xfce-choice-description": "Yükleyici, 'XFCE' Masaüstü Ortamı için bir seçenek sunar veya Linux Dağıtımının bir varyantı mevcuttur.",
     "xfce-default-description": "Standart masaüstü ortamı 'XFCE'.",
     "xubuntu-description": "Xubuntu, hafif XFCE masaüstü ortamı tarafından desteklenen Ubuntu tabanlı bir dağıtımdır",
-    "zorinos-description": "Zorin OS, Windows benzeri bir kullanıcı arayüzü ile başlangıç odaklı bir dağıtımdır",
     "years_old": "yaş",
-    "operational_center": "Birincil operasyonel ve idari merkez"
+    "zorinos-description": "Zorin OS, Windows benzeri bir kullanıcı arayüzü ile başlangıç odaklı bir dağıtımdır"
 }

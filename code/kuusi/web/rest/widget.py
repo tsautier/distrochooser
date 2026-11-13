@@ -55,6 +55,7 @@ from web.models import (
     ResultListWidget,
     ResultShareWidget,
     Session,
+    OldVersionWidget,
     SessionVersion,
     SessionVersionWidget,
     Widget,
@@ -98,6 +99,14 @@ class HTMLWidgetSerializer(WidgetSerializer):
     class Meta:
         model = HTMLWidget
         fields = WIDGET_SERIALIZER_BASE_FIELDS + ("template",)
+
+
+class OldVersionWidgetSerializer(WidgetSerializer):
+    widget_type = serializers.SerializerMethodField()
+
+    class Meta:
+        model = OldVersionWidget
+        fields = WIDGET_SERIALIZER_BASE_FIELDS
 
 
 class WithFacetteWidgetSerializer(WidgetSerializer):
@@ -420,6 +429,7 @@ class WidgetViewSet(ListModelMixin, GenericViewSet):
                         ResultShareWidgetSerializer,
                         FeedbackWidgetSerializer,
                         MetaFilterWidgetSerializer,
+                        OldVersionWidgetSerializer,
                     ],
                     component_name="MetaWidget",
                     resource_type_field_name="widget_type",

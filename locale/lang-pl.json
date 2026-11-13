@@ -179,10 +179,11 @@
     "not-built-for-gaming-facette-gaming-usage-description": "Nie zoptymalizowany dla gier",
     "not-for-beginner-facette-no-linux-contact-description": "Nieodpowiednia dla początkujących",
     "okay-when-working-description": "Zgadzam się na korzystanie z takich usług, jeśli poprawi to mój komfort użytkowania",
-    "old-version-alert": "Podany link został utworzony przy użyciu starszej wersji projektu. Wynik można teraz znaleźć pod następującym linkiem",
-    "old-version-migrated-fallback-alert": "Przeniesioneśmy odpowiedzi do tej wersji. Ponieważ struktura nieco się różni, wynik może się różnić.",
+    "old-version-alert": "Na ograniczony czas możesz znaleźć starą wersję distrochoosera również pod poniższym linkiem",
+    "old-version-migrated-fallback-alert": "Ta nowa wersja zachowuje 2,7 miliona wyników z wersji 5. Twoje linki pozostają ważne.",
     "old-version-not-found-alert": "Podany link odnosi się do starego wyniku, który niestety nie jest już dostępny.",
     "opensuse-description": "openSUSE ma na celu dostarczenie stabilnej i przyjaznej użytkownikowi dystrybucji, głównie dla użytkowników indywidualnych",
+    "operational_center": "Główny ośrodek operacyjny i administracyjny",
     "organized_in": "Zorganizowane w",
     "packages-available-facette-privacy-usage-description": "Posiada programy do anonimizacji",
     "packages-may-too-old-gaming-facette-gaming-usage-description": "Programy mogą nie być wystarczająco aktualne dla gier",
@@ -309,7 +310,6 @@
     "xfce-choice-description": "Instalator posiada opcję dla środowiska pulpitowego 'XFCE' lub dostępna jest wariant dystrybucji Linuksa.",
     "xfce-default-description": "Standardowe środowisko pulpitu to 'XFCE'.",
     "xubuntu-description": "Xubuntu to dystrybucja oparta na Ubuntu, zasilana lekkim środowiskiem graficznym XFCE",
-    "zorinos-description": "Zorin OS to dystrybucja dla początkujących z interfejsem użytkownika przypominającym Windows",
     "years_old": "lat",
-    "operational_center": "Główny ośrodek operacyjny i administracyjny"
+    "zorinos-description": "Zorin OS to dystrybucja dla początkujących z interfejsem użytkownika przypominającym Windows"
 }

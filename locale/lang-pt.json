@@ -179,10 +179,11 @@
     "not-built-for-gaming-facette-gaming-usage-description": "Não está optimizado para jogos",
     "not-for-beginner-facette-no-linux-contact-description": "Não é adequado para iniciantes",
     "okay-when-working-description": "Se melhora minha experiência de usuário, aceito serviços em segundo plano",
-    "old-version-alert": "O link fornecido foi criado com uma versão mais antiga do projeto. Agora pode encontrar o resultado no seguinte link",
-    "old-version-migrated-fallback-alert": "Migramos as respostas para esta versão. Como a estrutura é ligeiramente diferente, o resultado pode variar.",
+    "old-version-alert": "Por tempo limitado, você pode encontrar a versão antiga do distrochooser também no seguinte link",
+    "old-version-migrated-fallback-alert": "Esta nova versão mantém os 2,7 milhões de resultados da versão 5. Seus links permanecem válidos.",
     "old-version-not-found-alert": "O link fornecido se refere a um resultado antigo que, infelizmente, não está mais disponível.",
     "opensuse-description": "openSUSE almeja oferecer uma distribuição estável e fácil de usar, principalmente para usuários finais",
+    "operational_center": "Centro operacional e administrativo primário",
     "organized_in": "Organizado em",
     "packages-available-facette-privacy-usage-description": "Programas para fins de anonimização estão disponíveis",
     "packages-may-too-old-gaming-facette-gaming-usage-description": "As versões do programa podem não estar atualizadas o suficiente para serem reproduzidas",
@@ -309,7 +310,6 @@
     "xfce-choice-description": "O instalador oferece uma opção para o Ambiente de Desktop 'XFCE' ou uma variante da Distribuição Linux está disponível.",
     "xfce-default-description": "O ambiente de desktop padrão é 'XFCE'.",
     "xubuntu-description": "Xubuntu é uma distribuição baseada na Ubuntu com o ambiente gráfico XFCE",
-    "zorinos-description": "Zorin OS é uma distribuição com foco em iniciantes com uma interface de usuário similar ao Windows",
     "years_old": "anos",
-    "operational_center": "Centro operacional e administrativo primário"
+    "zorinos-description": "Zorin OS é uma distribuição com foco em iniciantes com uma interface de usuário similar ao Windows"
 }

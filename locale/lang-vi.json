@@ -179,10 +179,11 @@
     "not-built-for-gaming-facette-gaming-usage-description": "Không được tối ưu hóa để chơi game",
     "not-for-beginner-facette-no-linux-contact-description": "Không thích hợp cho người mới bắt đầu",
     "okay-when-working-description": "Nếu nó cải thiện trải nghiệm người dùng của tôi, tôi đồng ý với việc sử dụng các dịch vụ trực tuyến như vậy",
-    "old-version-alert": "Liên kết được cung cấp đã được tạo bằng phiên bản cũ của dự án. Bạn có thể tìm thấy kết quả tại liên kết sau đây.",
-    "old-version-migrated-fallback-alert": "Chúng tôi đã di chuyển câu trả lời sang phiên bản này. Vì cấu trúc hơi khác, kết quả có thể thay đổi.",
+    "old-version-alert": "Trong thời gian giới hạn, bạn có thể tìm thấy phiên bản cũ của distrochooser cũng tại liên kết sau",
+    "old-version-migrated-fallback-alert": "Phiên bản mới này giữ lại 2,7 triệu kết quả của phiên bản 5. Các liên kết của bạn vẫn còn hiệu lực.",
     "old-version-not-found-alert": "Liên kết được cung cấp đề cập đến một kết quả cũ mà đáng tiếc là không còn sẵn có.",
     "opensuse-description": "openSUSE nhằm mục đích cung cấp một bản phân phối ổn định và thân thiện với người dùng, chủ yếu dành cho người dùng cuối",
+    "operational_center": "Trung tâm vận hành và hành chính chính",
     "organized_in": "Được tổ chức trong",
     "packages-available-facette-privacy-usage-description": "Có sẵn các chương trình cho mục đích ẩn danh",
     "packages-may-too-old-gaming-facette-gaming-usage-description": "Các phiên bản chương trình có thể không đủ cập nhật để chơi game",
@@ -309,7 +310,6 @@
     "xfce-choice-description": "Trình cài đặt cung cấp tùy chọn cho Môi trường Máy tính để bàn 'XFCE' hoặc có một biến thể của bản phân phối Linux.",
     "xfce-default-description": "Môi trường desktop tiêu chuẩn là 'XFCE'.",
     "xubuntu-description": "Xubuntu là bản phân phối dựa trên Ubuntu được hỗ trợ bởi một môi trường desktop nhẹ là XFCE",
-    "zorinos-description": "Zorin OS là bản phân phối tập trung cho người mới bắt đầu với giao diện người dùng giống Windows",
     "years_old": "tuổi",
-    "operational_center": "Trung tâm vận hành và hành chính chính"
+    "zorinos-description": "Zorin OS là bản phân phối tập trung cho người mới bắt đầu với giao diện người dùng giống Windows"
 }

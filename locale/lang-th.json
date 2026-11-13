@@ -181,10 +181,11 @@
     "not-built-for-gaming-facette-gaming-usage-description": "ไม่ได้ปรับแต่งมาเพื่อการเล่นเกม",
     "not-for-beginner-facette-no-linux-contact-description": "ไม่เหมาะสำหรับผู้เริ่มต้น",
     "okay-when-working-description": "ถ้ามันช่วยให้ประสบการณ์การใช้งานดีขึ้น ฉันตกลงที่จะใช้บริการออนไลน์เหล่านั้น",
-    "old-version-alert": "ลิงก์ที่ให้มาถูกสร้างขึ้นด้วยเวอร์ชันเก่าของโครงการ คุณสามารถดูผลลัพธ์ได้ที่ลิงก์ต่อไปนี้",
-    "old-version-migrated-fallback-alert": "เราได้ย้ายคำตอบมายังเวอร์ชันนี้ เนื่องจากโครงสร้างแตกต่างกันเล็กน้อย ผลลัพธ์อาจแตกต่างกันไป",
+    "old-version-alert": "สำหรับช่วงเวลาจำกัด คุณสามารถค้นหา distrochooser เวอร์ชันเก่าได้ที่ลิงก์ต่อไปนี้ด้วย",
+    "old-version-migrated-fallback-alert": "เวอร์ชันใหม่นี้ยังคงมีผลลัพธ์ 2.7 ล้านรายการของเวอร์ชัน 5 ลิงก์ของคุณยังคงใช้งานได้อยู่",
     "old-version-not-found-alert": "ลิงก์นี้เป็นผลเก่า ที่เสียดายที่ใช้ไม่ได้แล้วนะ",
     "opensuse-description": "openSUSE มุ่งหวังที่จะส่งมอบ Linux distribution ที่เสถียรและเป็นมิตรกับผู้ใช้ โดยเน้นที่ผู้ใช้ทั่วไป",
+    "operational_center": "ศูนย์ปฏิบัติการและบริหารหลัก",
     "organized_in": "จัดเรียงใน",
     "packages-available-facette-privacy-usage-description": "มีโปรแกรมสำหรับวัตถุประสงค์ในการปกปิดตัวตนให้ใช้งาน",
     "packages-may-too-old-gaming-facette-gaming-usage-description": "เวอร์ชันของโปรแกรมอาจไม่ทันสมัยพอสำหรับการเล่นเกม",
@@ -311,7 +312,6 @@
     "xfce-choice-description": "ตัวติดตั้งมีตัวเลือกสำหรับสภาพแวดล้อมเดสก์ท็อป 'XFCE' หรือมีเวอร์ชันของ Linux Distribution ให้เลือก",
     "xfce-default-description": "สภาพแวดล้อมเดสก์ท็อปมาตรฐานคือ 'XFCE'",
     "xubuntu-description": "Xubuntu เป็น Linux distribution ที่มีฐานมาจาก Ubuntu ขับเคลื่อนโดย XFCE desktop environment ที่มีน้ำหนักเบา",
-    "zorinos-description": "Zorin OS เป็น Linux distribution ที่เน้นผู้เริ่มต้น มีส่วนติดต่อผู้ใช้คล้าย Windows",
     "years_old": "ปี",
-    "operational_center": "ศูนย์ปฏิบัติการและบริหารหลัก"
+    "zorinos-description": "Zorin OS เป็น Linux distribution ที่เน้นผู้เริ่มต้น มีส่วนติดต่อผู้ใช้คล้าย Windows"
 }

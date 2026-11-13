@@ -21,6 +21,7 @@ from django.contrib.admin import SimpleListFilter
 from kuusi.settings import DEBUG
 
 from web.models import (
+    OldVersionWidget,
     GivenFeedback,
     MetaFilterValue,
     Choosable,
@@ -249,6 +250,7 @@ class ViolationAdmin(admin.ModelAdmin):
 [
     admin.site.register(*models)
     for models in [
+        (OldVersionWidget,),
         (Violation, ViolationAdmin),
         (TimeFrameCell, TimeFrameCellAdmin),
         (TimeFrame, TimeFrameAdmin),

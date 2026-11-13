@@ -24,9 +24,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <NuxtLoadingIndicator />
     <NuxtRouteAnnouncer />
     <HardSessionFail v-if="sessionStore.hardSessionFail" />
-    <main role="main" :class="{ 'rtl': sessionStore.session && sessionStore.session.isLanguageRtl }" v-else>
+    <main role="main" class="container-fluid"
+      :class="{ 'rtl': sessionStore.session && sessionStore.session.isLanguageRtl }" v-else>
       <DarkMode />
-      <OldVersionWarning v-if="id !== null && sessionStore.session" />
 
       <div class="row">
         <div class="col-xl-3">
@@ -37,16 +37,19 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
           <Navigation />
         </div>
       </div>
-      <div class=" row">
-        <div class="d-none d-xl-block col-xxl-2" />
-        <div class="col-xl-4 col-xxl-2 d-none d-xl-block ">
-          <div class="ms-3 mb-3 sticky-top">
-            <SideNavigation />
+      <div class="row">
+        <div class="d-none d-xl-block col-xl-3">
+          <div class="mb-3 sticky-top">
+            <div class="row">
+              <div class="col-12 col-xxl-11">
+                <SideNavigation />
+              </div>
+              <div class="col-xxl-1" />
+            </div>
           </div>
         </div>
-        <div class="col-12 col-xl-8 col-xxl-4">
-          <div class="page position-relative top-40 p-3 me-3" v-if="sessionStore.session">
-
+        <div class="col-12 col-xl-9 col-xxl-6">
+          <div class="page position-relative top-40 p-3 " v-if="sessionStore.session">
             <RenderField />
           </div>
           <div class="text-center">
@@ -72,7 +75,6 @@ import { EntryPointEnum } from "../../sdk";
 import SideNavigation from "../../components/SideNavigation.vue";
 import LogoContainer from "../../components/LogoContainer.vue";
 import DarkMode from "../../components/DarkMode.vue";
-import OldVersionWarning from "../../components/OldVersionWarning.vue";
 import HardSessionFail from "../../components/HardSessionFail.vue";
 
 const { start, finish } = useLoadingIndicator()

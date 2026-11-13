@@ -17,21 +17,19 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <template>
   <div>
-    <div
-      v-for="(widget, index) in store.currentWidgets.filter((w ) => w.row == props.row)"
-      :key="index"
-      :class="'col col-' + widget.width"
-    >
-    <NavigationWidget v-if="widget.widgetType == 'NavigationWidget'" :widget="widget"/>
-    <FacetteSelectionWidget v-if="widget.widgetType == 'FacetteSelectionWidget'" :checkbox="true" :widget="widget"/>
-    <FacetteSelectionWidget v-if="widget.widgetType == 'FacetteRadioSelectionWidget'" :checkbox="false" :widget="widget"/>
-    <ResultListWidget v-if="widget.widgetType == 'ResultListWidget'" :widget="widget"/>
-    <ResultShareWidget v-if="widget.widgetType == 'ResultShareWidget'" :widget="widget"/>
-    <HTMLWidget v-if="widget.widgetType == 'HTMLWidget'" :widget="widget"/>
-    <SessionVersionWidget v-if="widget.widgetType == 'SessionVersionWidget'" :widget="widget"/>
-    <MetaFilterWidget v-if="widget.widgetType == 'MetaFilterWidget'" :widget="widget"/>
-    <FeedbackWidget v-if="widget.widgetType == 'FeedbackWidget'" :widget="widget"/>
-    
+    <div v-for="(widget, index) in store.currentWidgets.filter((w) => w.row == props.row)" :key="index"
+      :class="'col col-' + widget.width">
+      <NavigationWidget v-if="widget.widgetType == 'NavigationWidget'" :widget="widget" />
+      <FacetteSelectionWidget v-if="widget.widgetType == 'FacetteSelectionWidget'" :checkbox="true" :widget="widget" />
+      <FacetteSelectionWidget v-if="widget.widgetType == 'FacetteRadioSelectionWidget'" :checkbox="false"
+        :widget="widget" />
+      <ResultListWidget v-if="widget.widgetType == 'ResultListWidget'" :widget="widget" />
+      <ResultShareWidget v-if="widget.widgetType == 'ResultShareWidget'" :widget="widget" />
+      <HTMLWidget v-if="widget.widgetType == 'HTMLWidget'" :widget="widget" />
+      <SessionVersionWidget v-if="widget.widgetType == 'SessionVersionWidget'" :widget="widget" />
+      <MetaFilterWidget v-if="widget.widgetType == 'MetaFilterWidget'" :widget="widget" />
+      <FeedbackWidget v-if="widget.widgetType == 'FeedbackWidget'" :widget="widget" />
+      <OldVersionWidget v-if="widget.widgetType == 'OldVersionWidget'" />
     </div>
   </div>
 </template>
@@ -46,6 +44,7 @@ import HTMLWidget from "./widgets/HTMLWidget.vue";
 import SessionVersionWidget from "./widgets/SessionVersionWidget.vue";
 import MetaFilterWidget from "./widgets/MetaFilterWidget.vue";
 import FeedbackWidget from "./widgets/FeedbackWidget.vue";
+import OldVersionWidget from "./widgets/OldVersionWidget.vue";
 
 interface WidgetWrapperProps {
   row: Number;

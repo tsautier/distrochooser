@@ -179,10 +179,11 @@
     "not-built-for-gaming-facette-gaming-usage-description": "未针对游戏进行优化$",
     "not-for-beginner-facette-no-linux-contact-description": "不适合初学者$",
     "okay-when-working-description": "如果可以提升我的用户体验，我同意使用此类在线服务$",
-    "old-version-alert": "提供的链接是使用旧版本项目生成的。您现在可通过以下链接查看结果：",
-    "old-version-migrated-fallback-alert": "我们已将答案迁移到此版本。由于结构略有不同，结果可能会有所不同。",
+    "old-version-alert": "在有限的时间内，您可以在以下链接找到 distrochooser 的旧版本",
+    "old-version-migrated-fallback-alert": "这个新版本保留了版本 5 的 270 万个结果。您的链接仍然有效。",
     "old-version-not-found-alert": "这个链接指向的结果是旧的，很抱歉它已经失效了。",
     "opensuse-description": "openSUSE 旨在提供稳定且用户友好的 Linux 发行版，主要面向最终用户$",
+    "operational_center": "主要运营和行政中心",
     "organized_in": "组织在",
     "packages-available-facette-privacy-usage-description": "提供匿名程序$",
     "packages-may-too-old-gaming-facette-gaming-usage-description": "程序版本可能不够新，无法用于游戏$",
@@ -309,7 +310,6 @@
     "xfce-choice-description": "安装程序提供桌面环境“XFCE”的选项，或者可使用 Linux 发行版的变体。",
     "xfce-default-description": "标准桌面环境是“XFCE”。",
     "xubuntu-description": "Xubuntu 是一款基于 Ubuntu 的 Linux 发行版，搭载轻量级 XFCE 桌面环境$",
-    "zorinos-description": "Zorin OS 是一款面向初学者的 Linux 发行版，拥有类似 Windows 的用户界面$",
     "years_old": "岁",
-    "operational_center": "主要运营和行政中心"
+    "zorinos-description": "Zorin OS 是一款面向初学者的 Linux 发行版，拥有类似 Windows 的用户界面$"
 }

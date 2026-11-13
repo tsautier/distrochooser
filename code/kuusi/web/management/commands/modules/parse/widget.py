@@ -15,11 +15,31 @@ GNU Affero General Public License for more details.
 You should have received a copy of the GNU Affero General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 """
+
 from typing import Dict, List, Callable, Type, Any
-from web.models import FeedbackWidget, MetaFilterWidget, MetaFilterWidgetStructure, Page, Widget, HTMLWidget, SessionVersionWidget, FacetteSelectionWidget, NavigationWidget, ResultShareWidget, ResultListWidget, FacetteRadioSelectionWidget
+from web.models import (
+    FeedbackWidget,
+    MetaFilterWidget,
+    MetaFilterWidgetStructure,
+    Page,
+    Widget,
+    HTMLWidget,
+    SessionVersionWidget,
+    FacetteSelectionWidget,
+    NavigationWidget,
+    ResultShareWidget,
+    ResultListWidget,
+    FacetteRadioSelectionWidget,
+    OldVersionWidget,
+)
 from logging import getLogger
-logger = getLogger('command') 
-def create_widgets(get_or_default: Callable[[str, Dict], Any], haystack: Dict) -> List[Widget]:
+
+logger = getLogger("command")
+
+
+def create_widgets(
+    get_or_default: Callable[[str, Dict], Any], haystack: Dict
+) -> List[Widget]:
     got = []
 
     key_map = {
@@ -28,32 +48,33 @@ def create_widgets(get_or_default: Callable[[str, Dict], Any], haystack: Dict) -
         "selection": FacetteSelectionWidget,
         "radio": FacetteRadioSelectionWidget,
         "share": ResultShareWidget,
-        "result": ResultListWidget,  
+        "result": ResultListWidget,
         "navigation": NavigationWidget,
         "metafilter": MetaFilterWidget,
-        "feedback": FeedbackWidget
+        "feedback": FeedbackWidget,
+        "oldversion": OldVersionWidget,
     }
-    prop_map: Dict[str, Dict[str, Type]]= {
+    prop_map: Dict[str, Dict[str, Type]] = {
         "html": {"template": str},
-        "selection": {"topic":str},
-        "radio": {"topic":str},
-        "metafilter": {"structure": MetaFilterWidgetStructure}
+        "selection": {"topic": str},
+        "radio": {"topic": str},
+        "metafilter": {"structure": MetaFilterWidgetStructure},
     }
     # check validity in terms of type definitions:
     for key in haystack.keys():
         if key not in key_map:
             raise Exception(f"Key of widget type not found: {key}")
-    
+
     for key, widget_class in key_map.items():
         elements = haystack[key]
         for catalogue_id, properties in elements.items():
             new_widget: Widget = widget_class(
                 catalogue_id=catalogue_id,
-                row = get_or_default("row", properties),
-                col = get_or_default("col", properties),
-                width = get_or_default("width", properties)
+                row=get_or_default("row", properties),
+                col=get_or_default("col", properties),
+                width=get_or_default("width", properties),
             )
-                
+
             new_widget.save()
             pages = properties["pages"]
             page_catalogue_id: str
@@ -71,10 +92,10 @@ def create_widgets(get_or_default: Callable[[str, Dict], Any], haystack: Dict) -
                         new_widget.__setattr__(prop_key, structure.stringify())
                     else:
                         raise NotImplementedError()
-            print(f"Created new widget {new_widget.catalogue_id} (Type={new_widget.widget_type}, Row={new_widget.row}, Col={new_widget.col})")
+            print(
+                f"Created new widget {new_widget.catalogue_id} (Type={new_widget.widget_type}, Row={new_widget.row}, Col={new_widget.col})"
+            )
             new_widget.save()
             got.append(new_widget)
-
-
 
     return got

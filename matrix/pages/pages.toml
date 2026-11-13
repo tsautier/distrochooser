@@ -29,6 +29,10 @@ icon = "ion:arrow-forward-circle-outline"
 [widget.html.welcome-page-widget-name]
 template = "welcomeHTML"
 pages = ["welcome-page"]
+
+[widget.oldversion.welcome-page-old-version]
+pages = ["welcome-page"]
+
 # Version page
 
 # distrochooser::translation::en::You can select a simplified questionaire edition, which removes some super technical questions

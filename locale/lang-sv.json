@@ -179,10 +179,11 @@
     "not-built-for-gaming-facette-gaming-usage-description": "Ej optimerad för gaming",
     "not-for-beginner-facette-no-linux-contact-description": "Inte lämplig för nybörjare",
     "okay-when-working-description": "Om det förbättrar min användarupplevelse accepterar jag att använda sådana onlinetjänster",
-    "old-version-alert": "Den angivna länken skapades med en äldre version av projektet. Du kan nu hitta resultatet på följande länk",
-    "old-version-migrated-fallback-alert": "Vi har migrerat svaren till denna version. Eftersom strukturen skiljer sig något, kan resultatet variera.",
+    "old-version-alert": "Under begränsad tid kan du hitta den gamla versionen av distrochooser även på följande länk",
+    "old-version-migrated-fallback-alert": "Denna nya version behåller 2,7 miljoner resultat från version 5. Dina länkar är giltiga.",
     "old-version-not-found-alert": "Länken som tillhandahålls hänvisar till ett gammalt resultat som tyvärr inte längre är tillgängligt.",
     "opensuse-description": "openSUSE syftar till att leverera en stabil och användarvänlig distribution, främst för slutanvändare",
+    "operational_center": "Primärt operativt och administrativt centrum",
     "organized_in": "Organiserad i",
     "packages-available-facette-privacy-usage-description": "Program för anonymiseringsändamål finns tillgängliga",
     "packages-may-too-old-gaming-facette-gaming-usage-description": "Programversioner kanske inte är tillräckligt uppdaterade för spel",
@@ -309,7 +310,6 @@
     "xfce-choice-description": "Installatören erbjuder ett alternativ för skrivbordsmiljön 'XFCE' eller en variant av Linux-distributionen finns tillgänglig.",
     "xfce-default-description": "Standardarbetsmiljön är 'XFCE'.",
     "xubuntu-description": "Xubuntu är en Ubuntu-baserad distribution som drivs av den lätta XFCE-skrivbordsmiljön",
-    "zorinos-description": "Zorin OS är en nybörjarfokuserad distribution med ett Windows-liknande användargränssnitt",
     "years_old": "år",
-    "operational_center": "Primärt operativt och administrativt centrum"
+    "zorinos-description": "Zorin OS är en nybörjarfokuserad distribution med ett Windows-liknande användargränssnitt"
 }

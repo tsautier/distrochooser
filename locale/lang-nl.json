@@ -179,10 +179,11 @@
     "not-built-for-gaming-facette-gaming-usage-description": "Niet geoptimaliseerd voor gaming",
     "not-for-beginner-facette-no-linux-contact-description": "Niet geschikt voor beginners",
     "okay-when-working-description": "Als het mijn gebruikerservaring verbetert, ga ik akkoord met het gebruik van dergelijke online diensten",
-    "old-version-alert": "De verstrekte link is gemaakt met een oudere versie van het project. U kunt het resultaat nu vinden via de volgende link",
-    "old-version-migrated-fallback-alert": "We hebben de antwoorden gemigreerd naar deze versie. Omdat de structuur licht verschilt, kan het resultaat variëren.",
+    "old-version-alert": "Voor een beperkte tijd kun je de oude versie van distrochooser ook vinden op de volgende link",
+    "old-version-migrated-fallback-alert": "Deze nieuwe versie behoudt de 2,7 miljoen resultaten van versie 5. Je links blijven geldig.",
     "old-version-not-found-alert": "Die link verwijst naar een oud resultaat dat helaas niet meer bestaat.",
     "opensuse-description": "openSUSE streeft naar een stabiele en gebruiksvriendelijke distributie, vooral voor eindgebruikers",
+    "operational_center": "Primair operationeel en administratief centrum",
     "organized_in": "Georganiseerd in",
     "packages-available-facette-privacy-usage-description": "Programma's voor anonimiseringsdoeleinden zijn beschikbaar",
     "packages-may-too-old-gaming-facette-gaming-usage-description": "Programmaversies zijn mogelijk niet up-to-date genoeg om te gamen",
@@ -309,7 +310,6 @@
     "xfce-choice-description": "De installatiepakket bevat een optie voor de desktopomgeving 'XFCE' of er is een variant van de Linux-distributie beschikbaar.",
     "xfce-default-description": "De standaard desktopomgeving is 'XFCE'.",
     "xubuntu-description": "Xubuntu is een op Ubuntu gebaseerde distributie die wordt aangedreven door de lichtgewicht XFCE-desktopomgeving",
-    "zorinos-description": "Zorin OS is een op beginners gerichte distributie met een Windows-achtige gebruikersinterface",
     "years_old": "jaar oud",
-    "operational_center": "Primair operationeel en administratief centrum"
+    "zorinos-description": "Zorin OS is een op beginners gerichte distributie met een Windows-achtige gebruikersinterface"
 }

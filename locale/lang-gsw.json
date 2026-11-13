@@ -179,10 +179,11 @@
     "not-built-for-gaming-facette-gaming-usage-description": "Nid optimiert für Spili",
     "not-for-beginner-facette-no-linux-contact-description": "Nid für Afänger geignet",
     "okay-when-working-description": "Wes mini Benutzererfahrig verbesseret, de bini drmit iverstange.",
-    "old-version-alert": "Das bereitgestellte Ergebnis wurde mit einer älteren Version des Projekts erstellt. Sie finden das Ergebnis nun unter folgendem Link",
-    "old-version-migrated-fallback-alert": "Mir g'migrierte d'Antworte uf di Version. Will d'Struktuure chli underschiedlich si, cha s'Ergäbnis variiere.",
+    "old-version-alert": "Mähdud müddət ərzində distrochooser-un köhnə versiyasını əlavə olaraq aşağıdakı linkdə tapa bilərsiniz",
+    "old-version-migrated-fallback-alert": "Die neui Version behaltet die 2.7 Million Resultat vo Version 5. Dini Links bliebe gültig.",
     "old-version-not-found-alert": "Ili link ukhona ngenqondo yomphumela omdala, kodwa ingabe singase usebenzi. (Note: Gswaran/Swazi translation focusing on function/context)",
     "opensuse-description": "openSUSE isch e stabili u benutzerfründlechi Distribution, am beste geignet für Desktop-User",
+    "operational_center": "Hauptbetriebs- und Verwaltigszäntrum",
     "organized_in": "Gswaren",
     "packages-available-facette-privacy-usage-description": "Programm für Anonymisierig chöi nacheinstalliert wärde",
     "packages-may-too-old-gaming-facette-gaming-usage-description": "D Programm si eventuell nid aktuell gnue für Spili.",
@@ -309,7 +310,6 @@
     "xfce-choice-description": "L'installer features an option for Desktop Environment 'XFCE' or a variant of the Linux Distribution is available.",
     "xfce-default-description": "Die Standard-Desktop-Umgebung isch 'XFCE'.",
     "xubuntu-description": "Xubuntu isch e Distribution wo uf Ubuntu basiert und e XFCE-Desktop vorinstalliert het.",
-    "zorinos-description": "ZorinOS isch e benutzerfründlechi Distribution mitere Oberflechi wo a Windows erinneret",
     "years_old": "Johr alt",
-    "operational_center": "Hauptbetriebs- und Verwaltigszäntrum"
+    "zorinos-description": "ZorinOS isch e benutzerfründlechi Distribution mitere Oberflechi wo a Windows erinneret"
 }
