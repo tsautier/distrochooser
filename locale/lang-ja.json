@@ -180,7 +180,7 @@
     "not-for-beginner-facette-no-linux-contact-description": "初心者には適していません",
     "okay-when-working-description": "ユーザー エクスペリエンスが向上するのであれば、このようなオンライン サービスを使用することに同意します。",
     "old-version-alert": "一時的に、distrochooserの旧バージョンを以下のリンクでも見つけることができます",
-    "old-version-migrated-fallback-alert": "この新しいバージョンは、バージョン5の270万件の結果を保持しています。お客様のリンクは引き続き有効です。",
+    "old-version-migrated-fallback-alert": "この新しいバージョンはバージョン5の270万件の検索結果を保持しています。このバージョンのリンクは有効です。",
     "old-version-not-found-alert": "このリンクは古い結果ですが、残念ながらもう使えません。",
     "opensuse-description": "openSUSE は、主にエンドユーザー向けに、安定したユーザーフレンドリーなディストリビューションを提供することを目指しています。",
     "operational_center": "主要な運営および管理センター",
